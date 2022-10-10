@@ -14,8 +14,8 @@ const App=()=> {
          Hello My Name Is Ridho
         </p>
         <MyButton></MyButton>
-        <Footer></Footer>
       </header>
+      <Footer></Footer>
     </div>
   );
 }
