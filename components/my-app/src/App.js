@@ -1,21 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
 import MyButton from './components/myButton'
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar'; //ini untuk memasukkan 
 import Footer from './components/Footer';
+import Cek from './components/Cek';
+import Jsx from './components/Jsx';
+import Props from './components/Props';
+import State from './components/State';
 
 const App=()=> {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <Navbar></Navbar> 
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         Hello My Name Is Ridho
-        </p>
-        <MyButton></MyButton>
-      </header>
+    <div>
+      <MyButton></MyButton>
+      <Navbar></Navbar>
+      <Cek></Cek>
+    <div>
       <Footer></Footer>
+    </div>
+      <Jsx></Jsx>
+      <Props></Props>
+      <State></State>
     </div>
   );
 }
