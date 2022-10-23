@@ -6,6 +6,8 @@ import Cek from './components/Cek';
 import Jsx from './components/Jsx';
 import Props from './components/Props';
 import State from './components/State';
+import Events from './components/Events';
+import ConditionalRendering from './components/ConditionalRendering';
 
 const App=()=> {
   
@@ -14,12 +16,16 @@ const App=()=> {
       <MyButton></MyButton>
       <Navbar></Navbar>
       <Cek></Cek>
-    <div>
-      <Footer></Footer>
-    </div>
       <Jsx></Jsx>
       <Props></Props>
       <State></State>
+      <br></br>
+      <Events></Events>
+      <br></br>
+      <ConditionalRendering></ConditionalRendering>
+      <div>
+      <Footer></Footer>
+      </div>
     </div>
   );
 }
