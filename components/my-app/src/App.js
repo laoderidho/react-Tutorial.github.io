@@ -8,6 +8,7 @@ import Props from './components/Props';
 import State from './components/State';
 import Events from './components/Events';
 import ConditionalRendering from './components/ConditionalRendering';
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 
 const App=()=> {
   
