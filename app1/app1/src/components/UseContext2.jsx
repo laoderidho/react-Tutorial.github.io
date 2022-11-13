@@ -1,9 +1,10 @@
-import React,{} from "react";
+import React,{ useContext } from "react";
 
 const UseContext2 = ()=>{
     return(
         <>
-            <h1>This UseContex</h1>
+            <h3>This UseContex</h3>
+            
         </>
     )
 }
